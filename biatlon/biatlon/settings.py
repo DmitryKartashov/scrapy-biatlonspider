@@ -1,4 +1,4 @@
-# Scrapy settings for biatlonspider project
+# Scrapy settings for biatlon project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'biatlonspider'
+BOT_NAME = 'biatlon'
 
-SPIDER_MODULES = ['biatlonspider.spiders']
-NEWSPIDER_MODULE = 'biatlonspider.spiders'
+SPIDER_MODULES = ['biatlon.spiders']
+NEWSPIDER_MODULE = 'biatlon.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'biatlonspider (+http://www.yourdomain.com)'
+#USER_AGENT = 'biatlon (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'biatlonspider.middlewares.BiatlonspiderSpiderMiddleware': 543,
+#    'biatlon.middlewares.BiatlonSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'biatlonspider.middlewares.BiatlonspiderDownloaderMiddleware': 543,
+#    'biatlon.middlewares.BiatlonDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'biatlonspider.pipelines.BiatlonspiderPipeline': 300,
+#    'biatlon.pipelines.BiatlonPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

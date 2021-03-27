@@ -6,7 +6,7 @@
 import scrapy
 
 
-class BiatlonspiderItem(scrapy.Item):
+class BiatlonItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
